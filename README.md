@@ -34,7 +34,11 @@ Once you're set up and you've installed the dependencies, you can serve the proj
 (venv) $ mkdocs serve
 ```
 
-Navigate to your localhost at port `8000` to view the generated documentation.
+In a web browser, navigate to your localhost at port `8000` to view the generated documentation.
+
+```bash
+$ http://127.0.0.1:8000
+```
 
 ## Notes
 
