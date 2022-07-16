@@ -158,3 +158,4 @@ cython_debug/
 #.idea/
 
 **/.DS_Store
+/calculator/__pycache__
