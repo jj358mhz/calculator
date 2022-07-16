@@ -8,12 +8,12 @@ You should be able to follow the same process and use the same concepts for your
 
 ## Setup
 
-To view the documentation project, navigate to `source_code_final/` and install the dependencies into a new virtual environment:
+To view the documentation project, navigate to `calculator/` and install the dependencies into a new virtual environment:
 
 **Linux, macOS:**
 
 ```bash
-$ cd source_code_final
+$ cd calculator
 $ python3 -m venv venv
 $ source venv/bin/activate
 (venv) $ python -m pip install -r requirements.txt
@@ -22,7 +22,7 @@ $ source venv/bin/activate
 **Windows:**
 
 ```powershell
-PS> cd source_code_final
+PS> cd calculator
 PS> python -m venv venv
 PS> venv\bin\Activate.ps1
 (venv) PS> python -m pip install -r requirements.txt
@@ -42,7 +42,7 @@ http://127.0.0.1:8000
 
 ## Notes
 
-Part of the documentation is auto-generated from docstrings in `source_code_final/calculator/`. The mkdocstrings package renders docstrings from module and package-level docstrings, as well as function docstrings in `calculations.py`.
+Part of the documentation is auto-generated from docstrings in `calculator/`. The mkdocstrings package renders docstrings from module and package-level docstrings, as well as function docstrings in `calculations.py`.
 
 You can find the relevant notation in `docs/index.md` and `docs/reference.md`.
 
